@@ -1,4 +1,4 @@
-import React from 'react'
+import './header.css'
 
 const Header = () => {
   return (
@@ -6,6 +6,10 @@ const Header = () => {
       <h1>🐱 ADOPT A MEOW</h1>
       <nav>
         <ul>
+          <li>PRICING</li>
+          <li>DOCUMENTATION</li>
+          <li>PROMOTION</li>
+          <li>SUPPORT</li>
         </ul>
       </nav>
     </header>
