@@ -6,10 +6,18 @@ const Header = () => {
       <h1>🐱 ADOPT A MEOW</h1>
       <nav>
         <ul>
-          <li>PRICING</li>
-          <li>DOCUMENTATION</li>
-          <li>PROMOTION</li>
-          <li>SUPPORT</li>
+          <li>
+            <a href="">PRICING</a>
+          </li>
+          <li>
+            <a href="">DOCUMENTATION</a>
+          </li>
+          <li>
+            <a href="">PROMOTION</a>
+          </li>
+          <li>
+            <a href="">SUPPORT</a>
+          </li>
         </ul>
       </nav>
     </header>
