@@ -1,5 +1,5 @@
 {
-  "homepage": "<https://aleixanadon.github.io/react-api-project>",
+  "homepage": "https://aleixanadon.github.io/react-api-project/",
   "name": "react-api-project",
   "private": true,
   "version": "0.0.0",
@@ -17,7 +17,8 @@
     "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^9.1.0"
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

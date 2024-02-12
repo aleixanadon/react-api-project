@@ -1,4 +1,3 @@
-import React from 'react'
 
 const HeroSection = () => {
   return (
@@ -8,8 +7,8 @@ const HeroSection = () => {
         <h3>Everyday's a purrfect day</h3>
         <h4>Adopt your first cat today</h4>
         <div>
-          <button>ADOPT NOW</button>
-          <button>READ OUR TERMS</button>
+          <a href="">ADOPT NOW</a>
+          <a href="">READ OUR TERMS</a>
         </div>
       </article>
       <article>

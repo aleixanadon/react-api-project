@@ -1,22 +1,25 @@
+import { Link } from 'react-router-dom'
 import './header.css'
 
 const Header = () => {
   return (
     <header>
-      <h1>🐱 ADOPT A MEOW</h1>
+      <h1>
+        <Link to="/react-api-project/">🐱 ADOPT A MEOW</Link>
+      </h1>
       <nav>
         <ul>
           <li>
-            <a href="">PRICING</a>
+            <Link to="/react-api-project/pricing">PRICING</Link>
           </li>
           <li>
-            <a href="">DOCUMENTATION</a>
+            <Link to="/react-api-project/documentation">DOCUMENTATION</Link>
           </li>
           <li>
-            <a href="">PROMOTION</a>
+            <Link to="/react-api-project/promotion">PROMOTION</Link>
           </li>
           <li>
-            <a href="">SUPPORT</a>
+            <Link to="/react-api-project/support">SUPPORT</Link>
           </li>
         </ul>
       </nav>
