@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 const Header = () => {
 
-  const [isNavbarOpen, setNavbarVisibility] = useState(true);
+  const [isNavbarOpen, setNavbarVisibility] = useState(false);
   const toggleNavbar = () => setNavbarVisibility(!isNavbarOpen);
 
   return (
