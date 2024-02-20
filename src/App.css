@@ -2,3 +2,10 @@
   padding: 10px;
   margin: 0 20em
 } */
+
+/* MOBILE SCREEN STYLES */
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 2vh;
+  }
+}
