@@ -1,18 +1,72 @@
- 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8em;
+/* GENERAL STYLES */
+header * {
+  color: black;
+  text-decoration: none;
 }
 
-header > h1 {
-  font-size: 2vw;
-  margin: 0;
-}
+/* MOBILE SCREEN STYLES */
+@media screen and (max-width: 480px) {
 
-header > nav > ul {
-  display: flex;
-  gap: 4em;
-  list-style: none;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;
+  }
+
+  header>h1 {
+    margin: 0;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 1vh;
+  }
+
+  .app-title {
+    font-size: 3vh;
+  }
+
+  header>nav {
+    display: none;
+    height: 0vh;
+  }
+
+  .navbar-open {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100%;
+    height: fit-content;
+    margin-top: 10vh;
+    top: 0;
+    left: 0;
+    box-shadow: 16px 16px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition-property: height;
+    transition-duration: 3s;
+  }
+
+  header>nav>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-left: 3vh;
+    list-style-type: none;
+  }
+
+  header>nav.navbar-open + button.dropdown-button {
+    transform: rotate(90deg);
+  }
+
+  .dropdown-button {
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    z-index: 1;
+    transition: transform 0.3s ease;
+  }
 }
