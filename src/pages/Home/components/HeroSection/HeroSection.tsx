@@ -1,18 +1,21 @@
+import './heroSection.css'
+import { Link } from "react-router-dom"
+import cat from '../../../../assets/cat.jpg'
 
 const HeroSection = () => {
   return (
     <section className='hero-section'>
       <article>
-        <h2>ADOPT YOUR NEW FRIEND MEOW!</h2>
-        <h3>Everyday's a purrfect day</h3>
-        <h4>Adopt your first cat today</h4>
         <div>
-          <a href="">ADOPT NOW</a>
-          <a href="">READ OUR TERMS</a>
+          <h2 className='h2-title'>ADOPT MEOW!</h2>
+          <p className='h2-subtitle'>Everyday's a purrfect day to adopt your new kitty friend!</p>
         </div>
-      </article>
-      <article>
-        <img src="" alt="" />
+        <div className='adopt-now-div'>
+          <Link to={""} className="">
+            ADOPT NOW
+          </Link>
+        </div>
+        <img src={cat} alt="" className='cat-photo' />
       </article>
     </section>
   )

@@ -1,0 +1,39 @@
+@import url('../../../../App.css');
+
+/* MOBILE SCREEN STYLES */
+@media screen and (max-width: 480px) {
+  article {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .h2-title {
+    margin: 6vh 0;
+    padding: 0;
+    text-align: center;
+    font-size: 5vh;
+  }
+  .adopt-now-div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--van-dyke);
+    padding: 1em;
+    border-radius: 8px;
+  }
+  .adopt-now-div a {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: large;
+    text-decoration: none;
+  }
+  .cat-photo {
+    width: 40vh;
+    height: auto;
+    border-radius: 8px;
+  }
+}

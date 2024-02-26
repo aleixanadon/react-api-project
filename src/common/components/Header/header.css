@@ -4,6 +4,10 @@ header * {
   text-decoration: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* MOBILE SCREEN STYLES */
 @media screen and (max-width: 480px) {
 
@@ -11,6 +15,7 @@ header * {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: relative; */
   }
 
   header>h1 {
@@ -54,7 +59,6 @@ header * {
     flex-direction: column;
     gap: 2em;
     padding-left: 3vh;
-    list-style-type: none;
   }
 
   header>nav.navbar-open + button.dropdown-button {
@@ -67,5 +71,23 @@ header * {
     font-size: 2em;
     z-index: 1;
     transition: transform 0.3s ease;
+    padding-bottom: 10px;
+  }
+}
+
+/* PC SCREEN STYLES */
+@media screen and (min-width: 481px) {
+  header, nav, ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vh;
+  }
+  .title-container {
+    display: flex;
+    gap: 2vh;
+  }
+  .dropdown-button {
+    display: none;
   }
 }
