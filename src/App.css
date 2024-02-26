@@ -16,7 +16,7 @@ body {
 @media screen and (max-width: 480px) {
   #root {
     height: fit-content;
-    padding: 2vh;
+    padding: 2vh 4vh;
     /* background-image: url("./assets/background_image.jpg");
     background-position: center;
     background-attachment: fixed; */

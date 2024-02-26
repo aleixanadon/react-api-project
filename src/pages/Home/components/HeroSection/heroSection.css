@@ -7,15 +7,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10vh;
+    gap: 4vh;
     text-align: center;
-    padding: 0 20px;
   }
   .h2-title {
     margin: 6vh 0;
     padding: 0;
     text-align: center;
-    font-size: 5vh;
+    font-size: 4vh;
+  }
+  .h2-subtitle {
+    text-align: center;
+    font-size: 3vh;
   }
   .adopt-now-div {
     width: 80%;
