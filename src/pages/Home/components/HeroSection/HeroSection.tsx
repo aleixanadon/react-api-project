@@ -1,6 +1,6 @@
 import './heroSection.css'
 import { Link } from "react-router-dom"
-import cat from '../../../../assets/cat.jpg'
+import cat from '../../../../assets/cat.png'
 
 const HeroSection = () => {
   return (
