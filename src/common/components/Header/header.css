@@ -76,12 +76,15 @@ ul {
 }
 
 /* PC SCREEN STYLES */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 992px) {
   header, nav, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10vh;
+  }
+  header > nav > ul > li > a:hover {
+    text-decoration: underline;
   }
   .title-container {
     display: flex;
