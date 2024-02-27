@@ -1,6 +1,11 @@
 /* MOBILE SCREEN STYLES */
 @media screen and (max-width: 480px) {
-  .available-cats {
+  .available-cats-h2 {
     font-size: 4vh;
+  }
+  .list-of-cats {
+    display: flex;
+    gap: 2vh;
+    overflow-x: auto;
   }
 }

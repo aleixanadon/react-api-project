@@ -12,17 +12,19 @@
 }
 
 .card-cat-photo {
-  width: 100%;
-  max-width: 100%;
+  width: 250px;
+  max-width: fit-content;
   height: auto;
 }
 
 .card-content {
-  padding: 5vh;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4vh;
+  align-items: center;
+  gap: 3vh;
+  padding: 2vh 4vh;
 }
 
 .description {
@@ -31,11 +33,12 @@
 }
 
 .meet-cat-link {
+  width: 80%;
   color: #fff;
   text-decoration: none;
   text-align: center;
   font-size: 4vh;
-  padding: 1vh 6vh;
+  padding: 1vh 4vh;
   border-radius: 16px;
   background-color: #B58E7C;
 }
