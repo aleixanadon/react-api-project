@@ -11,7 +11,7 @@ const Header = () => {
     <header>
       <h1>
         <Link to="/react-api-project/" className='title-container'>
-          <div className='icon'>🐱</div>
+          {/* <div className='icon'>🐱</div> */}
           <div className='app-title'>ADOPT A MEOW</div>
         </Link>
       </h1>

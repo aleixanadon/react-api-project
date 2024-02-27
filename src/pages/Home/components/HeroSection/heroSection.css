@@ -1,72 +1,95 @@
 @import url('../../../../App.css');
 
+:root {
+  --main-border-radius: 16px;
+}
+
+.adopt-link, .terms-link {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+
+.adopt-link {
+  background-color: #553F38;
+  color: #D3C4B6;
+}
+.terms-link {
+  background-color: #c2b1a1;
+  color: #553F38;
+}
+
 /* MOBILE SCREEN STYLES */
 @media screen and (max-width: 480px) {
-  article {
+  .hero-section {
     height: 90vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 4vh;
-    text-align: center;
   }
   .h2-title {
-    margin: 6vh 0;
-    padding: 0;
-    text-align: center;
     font-size: 5vh;
+    font-weight: 900;
   }
-  .h2-subtitle {
-    text-align: center;
+  .p-slogan {
     font-size: 3vh;
   }
-  .hero-section-div {
+  .links-div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 3vh;
   }
-  .adopt-now-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    background-color: var(--van-dyke);
-    padding: 1em;
-    border-radius: 8px;
-  }
-  .adopt-now-div a {
-    color: #ffffff;
-    font-weight: 800;
-    font-size: large;
-    text-decoration: none;
+  .adopt-link, .terms-link {
+    padding: 3vh 4vh;
+    border-radius: var(--main-border-radius);
+    font-size: 3.5vh;
   }
   .cat-photo {
-    width: 90%;
-    height: auto;
-    border-radius: 8px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: var(--main-border-radius);
   }
 }
 
+/* PC SCREEN STYLES*/
 @media screen and (min-width: 992px) {
   .hero-section {
-    height: 80vh;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin: 16vh 0;
+    gap: 6vh;
   }
-  .hero-section-article {
-    width: 100%;
-    display: flex;
-  }
-  .hero-section-div {
+  .left-side-article {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  }
+  .texts-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
   .h2-title {
+    margin: 0;
     font-size: 6vh;
   }
-  .h2-subtitle {
-    font-size: 4vh;
+  .p-slogan {
+    font-size: 3vh;
+  }
+  .links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  .adopt-link, .terms-link {
+    padding: 2vh 3vh;
+    border-radius: var(--main-border-radius);
+    font-size: 3vh;
   }
   .cat-photo {
-    border-radius: 16px;
+    height: 100%;
+    max-height: 100%;
+    border-radius: var(--main-border-radius);
   }
 }

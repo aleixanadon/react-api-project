@@ -78,6 +78,7 @@ ul {
 /* PC SCREEN STYLES */
 @media screen and (min-width: 992px) {
   header, nav, ul {
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
