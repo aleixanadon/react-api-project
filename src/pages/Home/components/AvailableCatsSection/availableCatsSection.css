@@ -1,0 +1,6 @@
+/* MOBILE SCREEN STYLES */
+@media screen and (max-width: 480px) {
+  .available-cats {
+    font-size: 4vh;
+  }
+}
