@@ -43,3 +43,14 @@
   border-radius: 8px;
   background-color: #B58E7C;
 }
+
+@media screen and (min-width: 992px) {
+  .card-cat-photo {
+    width: 100%;
+    max-width: fit-content;
+    height: auto;
+  }
+  .meet-cat-link {
+    font-size: 3vh;
+  }
+}

@@ -13,6 +13,11 @@ const AvailableCatsSection = () => {
         <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
         <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
         <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
+        <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
+        <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
+        <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
+        <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
+        <CatCard src={catPhoto} description='Encantador gato egipcio, juguetón y curioso, tiene 4 meses de edad.' />
       </article>
       <Link to="">See more</Link>
     </section>

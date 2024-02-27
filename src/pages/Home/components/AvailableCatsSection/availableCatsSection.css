@@ -9,3 +9,12 @@
     overflow-x: auto;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .list-of-cats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2vh;
+  }
+}
