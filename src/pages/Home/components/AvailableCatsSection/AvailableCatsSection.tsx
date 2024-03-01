@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import CatCard from '../../../../common/components/CatCard/CatCard'
-import catPhoto from '../../../../assets/cat.png'
 import './availableCatsSection.css'
 import useCatApi from '../../../../common/hooks/useCatApi'
 import { useEffect } from 'react'
